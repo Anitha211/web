@@ -54,27 +54,25 @@
 
     .s{
 
-        box-sizing: border-box;
+        box-sizing: content-box;
         background-color: silver;
         text-align: center;
-        height: 300px;
+        height: 200px;
         width: 11%;
         padding: 15px;
-        margin-right:6px ;
-        justify-content: center;
+        margin:6px ;
         
-
-    }
+        }
 
     .r{
 
-        box-sizing: border-box;
+        box-sizing: content-box;
         background-color: silver;
-        text-align: center;
-        height: 300px;
-        width: 23%; 
+        align-items: center;
+        height: 200px;
+        width: 21%; 
         padding : 15px;
-        margin-left: 5px;
+        margin: 5px;
         
 
     }
@@ -101,30 +99,57 @@
 
 </head>
 <body>
-
+     <!-- TASK 1 -->
      <h1 style="color: red; background-color: black; border: 2px solid yellow; text-align: center;">TASK</h1>
 
+     <div style="display: flex; flex-direction: column; align-content: center; background-color: lightgrey;" >
 
-     <div class="a">
 
-                <h1 class="l">Logo</h1>
-                <h1 class="n">Navigation</h1>
-                <h1 class="h">Header / Banner</h1>
+           <div class="a">
+            <div class="l">Logo</div>
+            <div class="n">Navigation</div>
+            <div class="h">Header/Banner</div>
 
-            </div>
+            <div class="b">
 
-            <div class="b" >
-
-                <h1 class="s">Side Bar</h1>
-                <h1 class="r">Body Area</h1>
+                <div class="s">Side Bar</div>
+                <div class="r">Body Area</div>
             
             </div>
 
             <div class="c">
 
-                <h1 class="f">Footer</h1>
+                <div class="f">Footer</div>
 
 
             </div>
+     </div>
+
+     <!--TASK 2-->
+
+            <h1 style="color: red; background-color: black; border: 2px solid yellow; text-align: center;">TASK - II</h1>
+            
+
+            <div style=" background-color: lightgray; font-size: larger; width: 40%;">
+            <div class="top">
+                <div class="logo">Logo</div>
+                <div class="nav">Navigation</div>
+            </div>
+
+            <div class="head">Header/Banner</div>
+
+            <div class="intro">Intro Text Area</div>
+
+            <div class="box123">
+                <div class="box">Box 1</div>
+                <div class="box">Box 2</div>
+                <div class="box">Box 3</div>
+            </div>
+
+            <div class="footer">Footer</div>
+
+            </div>
+
+
 </body>
 </html>
