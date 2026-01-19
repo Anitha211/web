@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID LAYOUTS</title>
+    <link rel="stylesheet" href="./index.css">
+    
+    <style>
+
+#row{
+            grid-template-columns: 1fr 1fr  ;
+            grid-gap: 10px;
+            text-align:center;
+        }
+.l{
+        background-color:burlywood;
+        padding: 2px;
+        margin: 5px;
+        
+        border: 2px solid black;
+        grid-column: 1/4;
+        grid-column-gap: 2px;
+    }
+
+.n{
+        background-color: burlywood;
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/4;
+        border: 2px solid black;
+        grid-column-gap: 2px;
+    }
+
+.h{
+        background-color: burlywood;
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/4;
+        border: 2px solid black;
+        grid-column-gap: 2px;
+    }
+
+.s{
+        background-color: burlywood;
+        padding: 2px;
+        margin: 5px;
+        grid-column: 1/2;
+        border: 2px solid black;
+        grid-row-gap: 2px;
+    }
+
+.r{
+        background-color: burlywood;
+        padding: 5px;
+        margin: 5px;
+        grid-column: 2/4;
+        border: 2px solid black;
+        grid-row-gap: 2px;
+    }
+
+.f{
+        background-color: burlywood;
+        padding:5px;
+        margin: 5px;
+        grid-column: 1/4;
+        border: 2px solid black;
+        grid-row-gap: 2px;
+        align-content: center;
+    }
+
+
+    /* Layout 2 */
+
+#a{
+            grid-gap:10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            text-align: center;
+            
+        }
+
+.logo{
+            grid-column: 1/2;
+            
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+        }
+
+.nav{
+            grid-column: 2/4;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+        }
+
+.head{
+
+            grid-column: 1/4;
+             background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+
+        }
+
+.intro{
+            grid-column: 1/4;
+             background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+
+        }
+
+.box1{
+
+            grid-column: 1/2;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+        }
+
+.box2{
+
+            grid-column: 2/3;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+        }
+
+.box3{
+
+            grid-column: 3/4;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+        }
+
+.footer{
+
+            grid-column: 1/4;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+        }
+
+
+        /* LAYOUT 3 */
+
+
+#b{
+            grid-gap:10px;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr 2fr 2fr 1fr;
+            
+        }
+
+.logo1{
+            
+            grid-column: 1/3;
+            /* grid-row:1/2; */
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:5px;
+            grid-column-gap: 2px;
+            text-align: left;
+        }
+
+.side1{
+            
+            grid-column: 1/2;
+            grid-row: 2/4;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:5px;
+            grid-column-gap: 2px;
+            text-align: center;
+
+        }
+
+.header1{
+            
+            grid-column: 2/3;
+            grid-row: 2/3;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:90px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+.body1{
+            
+            grid-column: 2/3;
+            grid-row: 3/4;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:90px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+.footer1{
+            grid-column: 1/3;
+
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:40px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+
+
+        /*LAYOUT 4  */
+
+
+
+#c{
+    grid-gap:10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;        
+    grid-gap: 10px;
+}
+
+        .Logo{
+            
+            grid-column: 1/2;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+            text-align: left;
+        }
+
+        .Nav{
+            grid-column: 2/5;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+        .i{
+            grid-column: 1/5;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:55px;
+            grid-gap: 2pxpx;
+            text-align: center;
+        }
+
+
+
+        .Box1{
+
+            grid-column: 1/2;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:20px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+        .Box2{
+
+            grid-column: 2/3;
+            grid-row: 3/4;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+        .Box3{
+
+            grid-column: 3/4;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+        .Footer{
+
+            grid-column: 1/5;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:10px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+</style>
+</head>
+<body>
+
+<div class="main">
+
+    <div style=" background-color: rgb(233, 98, 98); width:800px; height:700px; display: grid;" id="row">
+     
+            <div class="l">Logo</div>
+            <div class="n">Navigation</div>
+            <div class="h">Header/Banner</div>
+            
+            <div class="s">Side Bar</div>
+            <div class="r">Body Area</div>
+            
+            <div class="f">Footer</div>
+        
+        </div>
+
+
+    <div style="width:800px; height:700px; background-color:brown; display: grid;" id="a">
+            
+            <div class="logo">Logo</div>
+            <div class="nav">Navigation</div>
+            
+
+            <div class="head">Header/Banner</div>
+
+            <div class="intro">Intro Text Area</div>
+            
+            <div class="box1">Box 1</div>
+            <div class="box2">Box 2</div>
+            <div class="box3">Box 3</div>
+            
+            <div class="footer">Footer</div>
+
+    </div>
+
+
+    <div style="background-color:palevioletred; width:800px; height: 700px; display: grid;" id="b">
+
+            <div class="logo1">Logo</div>
+            <div class="side1">Side bar<br>Navigation</div>
+            <div class="header1">Header/Banner</div>
+            <div class="body1">Body Area</div>
+            <div class="footer1">Footer</div>
+
+    </div>
+
+
+    <div style="width:800px; height: 700px; background-color:deeppink; display: grid;" id="c">
+         
+            <div class="Logo">Logo</div>
+            <div class="Nav">Navigation</div>
+            
+            <div>
+                <div class="i"></div>
+                <div class="i"></div>
+                <div class="i"></div>
+                <div class="i"></div>
+            </div>
+            <div>
+                <div class="i"></div>
+                <div class="i"></div>
+                <div class="i"></div>
+                <div class="i"></div>
+            </div>
+         
+            <div>
+                <div class="i"></div>
+                <div class="i"></div>
+                <div class="i"></div>
+                <div class="i"></div>
+            </div>
+        
+
+            <div>
+                <div class="i"></div>
+                <div class="i"></div>
+                <div class="i"></div>
+                <div class="i"></div>
+            </div>
+        
+            <div class="Box1">Box 1</div>
+            <div class="Box2">Box 2</div>
+            <div class="Box3">Box 3</div>
+        
+            <div class="Footer">Footer</div>
+
+    </div>
+
+
+</div>
+
+    
+
+
+</body>
+</html>

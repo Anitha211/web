@@ -1,0 +1,13 @@
+    .main{
+        width:100px;
+        height: 150px;
+        grid-gap:10px;
+        grid-template-columns: 1fr 1fr;
+        display: grid;
+        
+        
+    }
+
+    body{
+        background-color: darkcyan;
+    }

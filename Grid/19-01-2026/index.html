@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GRID</title>
     <style>
-        #row{
-            grid-template-columns: 1fr 1fr 1fr;
+
+         #row{
+            grid-template-columns: 1fr 1fr 1fr ;
             grid-gap: 10px;
         }
     .l{
@@ -20,7 +21,7 @@
     }
 
     .n{
-         background-color: burlywood;
+        background-color: burlywood;
         padding: 2px;
         margin: 5px;
         grid-column: 1/4;
@@ -48,33 +49,40 @@
 
     .r{
         background-color: burlywood;
-        padding: 20px;
+        padding: 5px;
         margin: 5px;
         grid-column: 2/4;
         border: 2px solid black;
         grid-row-gap: 2px;
-        align-content: center;
-
     }
 
     .f{
         background-color: burlywood;
-        padding: 20px;
+        padding:5px;
         margin: 5px;
         grid-column: 1/4;
         border: 2px solid black;
         grid-row-gap: 2px;
         align-content: center;
-        justify-content: space-between;
     }
 
-    
+    /*  */
 
+    /* .container{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        /* background-color: aqua; */
+
+
+
+
+    
+    
 
     </style>
 </head>
 <body>
-     <div style=" background-color: rgb(233, 98, 98); width:800px; height:700px; display: grid;" id="row">
+        <div style=" background-color: rgb(233, 98, 98); width:800px; height:700px; display: grid;" id="row">
      
             <div class="l">Logo</div>
             <div class="n">Navigation</div>
@@ -85,13 +93,24 @@
             
             <div class="f">Footer</div>
         
+        </div>
+
+        <br>
+        <br>
+
+
+    <!--  -->
+
+
+    <div style="background-color: #e91212; width:800px; height:700px; display:grid;">
+        <div class="container">
+            <div>Container 1</div>
+            <div>Container 2</div>
+        </div>
     </div>
 
+    
 
-  
-
-
-
-
+    
 </body>
 </html>

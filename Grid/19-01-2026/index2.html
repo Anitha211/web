@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #b{
+            grid-gap:10px;
+            grid-template-columns: 1fr 1fr 1fr;
+            /* grid-template-rows: 1fr 2fr 2fr 1fr; */
+            
+        }
+
+        .logo1{
+            
+            grid-column: 1/4;
+            /* grid-row:1/2; */
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:5px;
+            grid-column-gap: 2px;
+            text-align: left;
+        }
+
+        .side1{
+            
+            grid-column: 1/2;
+            grid-row: 2/4;
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:5px;
+            grid-column-gap: 2px;
+            text-align: center;
+
+        }
+
+        .header1{
+            
+            grid-column: 2/4;
+            /* grid-row: 2/3; */
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:90px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+        .body1{
+            
+            grid-column: 2/4;
+            /* grid-row: 3/4; */
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:90px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+        .footer1{
+            grid-column: 1/4;
+
+            background-color:burlywood;
+            border: 2px solid black;
+            margin: 5px;
+            padding:40px;
+            grid-column-gap: 2px;
+            text-align: center;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+
+<div style="background-color:palevioletred; width:800px; height: 700px; display: grid;" id="b">
+
+    <div class="logo1">Logo</div>
+    <div class="side1">Side bar<br>Navigation</div>
+    <div class="header1">Header/Banner</div>
+    <div class="body1">Body Area</div>
+    <div class="footer1">Footer</div>
+
+</div>
+    
+</body>
+</html>
