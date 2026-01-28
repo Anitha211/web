@@ -9,8 +9,7 @@ export class B extends Component {
 
                 <h2>Class Component</h2>
                 <p>Fragment</p>
-                
-                </Fragment>
+            </Fragment>
             
             )
     }

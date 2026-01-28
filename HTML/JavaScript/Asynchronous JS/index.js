@@ -162,25 +162,13 @@ checkNumber(6)
 });
 
 // 
-function checkPassword(password){
-    return new Promise(function(resolve, reject){
-        if(password.length >= 6){
-            resolve("Password is strong")
-        } else {
-            reject("Password is short")
-        }
-    });
-}
-checkPassword("12345")
-.then(msg =>
-    console.log("Correct:", msg)
-)
-.catch(error => 
-    console.log("Incorrect:", error)
-);
+<div id="a">
+
+    <div class="header">Header</div>
+
 
 // 
-// promise.all() ---> if any one promise rejects then the entire result will rejects
+{/* // promise.all() ---> if any one promise rejects then the entire result will rejects */}
                     
 let p1 = Promise.resolve("Apple");
 
@@ -255,7 +243,7 @@ Promise.all([fruits(), veg()])
 .then(result => console.log(result))
 .catch(error => console.log(error));
 
-// promise.race() ---> it returns the first settled promise
+ {/* promise.race() ---> it returns the first settled promise */}
 
 let ab = Promise.reject("ABC");
 let ac = Promise.resolve("abc");
@@ -319,7 +307,7 @@ Promise.race([fast(), slow()])
 
 
 
-//promise.allSettled()---> it returns both resolve and reject 
+{/* //promise.allSettled()---> it returns both resolve and reject  */}
 
 
 let b1 = Promise.resolve("Successfully");
