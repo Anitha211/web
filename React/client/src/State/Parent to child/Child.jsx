@@ -21,10 +21,11 @@ return(
         <h3>Child.jsx (Parent Component)</h3>
 
         <button onClick={()=>{Increase(a)}}>Increase</button>
+        <button onClick={inc}>Click</button>
 
         <button onClick={increaseCount}>Increase Count: {count}</button>
         
-        <button onClick={inc}>Click</button>
+        
         <Parent value={count}/>
     </div>
     )

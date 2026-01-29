@@ -1,17 +1,15 @@
 import React, { useState } from "react"
 import Child2 from "./Child2"
 
-function Child1({name, B, onChangeName, onIncreaseValue }){
+function Child1({B, Value }){
 
     return(
         <div>
             <h2>Child1 Component</h2>
-            <button onClick={() => onChangeName()}>Change Name</button>
-            <button onClick={() => onIncreaseValue()}>Increase Value</button>
+            
+            <button onClick={() => Value()}>Increase Value</button>
 
-            <Child2 name={name}
-                    B={B}
-            />
+            <Child2 B={B}/>
         </div>
     )
 }
