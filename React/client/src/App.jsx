@@ -15,26 +15,17 @@ import P from "./State/29-01-2026/P";
 import Parent1 from "./State/30-01-2026/State lifiting/Parent1"
 import A from "./02-02-2026/LocalState/useState/A"
 import A1 from "./02-02-2026/GlobalState/Context Api/A1"
-
-
+import { store } from "./03-02-2026/GlobalState/Redux/AAA";
+import { Provider } from "react-redux"
+import A2 from "./03-02-2026/GlobalState/ContextAPI/A2";
 
 function App(){
   return(
-    <>
-      {/* <B/>
-      <C/>
-      <AA/>
-      <Child/>
-      <Parent1/>
-      <Parent/> 
-      <P/> 
-      <A/>
-      <Parent/>
-      <A/> */}
-      {/* <A/> */}
-      <A1/>
-    </>
+    <Provider store={store}>
+      <>
+         <A2/>
+      </>
+    </Provider>
   )
 }
-
 export default App;

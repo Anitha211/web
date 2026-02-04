@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import { Context } from "../../GlobalState/Context Api/A1";
+import { Context } from "../../GlobalState/Context Api/A";
 
 
 function CC(){

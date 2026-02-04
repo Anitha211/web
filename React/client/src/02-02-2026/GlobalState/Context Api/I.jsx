@@ -1,5 +1,5 @@
 import React, { useContext } from "react"
-import { Context } from "./A1";
+import { Context } from "./A";
  
 function I(){
     

@@ -1,9 +1,9 @@
 import { useContext } from "react";
-import { Context } from "./A1";
+import { Context } from "./A";
 
 
 function E(){
-let {a,seta} = useContext(Context);
+let {a} = useContext(Context);
     // console.log("Increase:",a);
     
     return(
