@@ -4,7 +4,6 @@ import CounterReducer from "./Slice"
 let store = configureStore({
    reducer:{ 
     Count : CounterReducer
-      
    }
  })
 
