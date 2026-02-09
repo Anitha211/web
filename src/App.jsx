@@ -1,7 +1,7 @@
 import React, { Suspense } from "react";
 // import A from "./Components/A";
-import B from "./Components/B";
-import C from "./Components/C";
+// import B from "./Components/B";
+// import C from "./Components/C";
 // import A from "./Parent to child/A";
 import AA from "./Child to Child/AA";
 import Child from "./State/Parent to child/Child";
@@ -13,19 +13,30 @@ import P from "./State/29-01-2026/P";
 // import A from "./State/30-01-2026/Props/A"
 // import Parent from "./State/30-01-2026/Props drilling/Parent"
 import Parent1 from "./State/30-01-2026/State lifiting/Parent1"
-import A from "./02-02-2026/LocalState/useState/A"
+// import A from "./02-02-2026/LocalState/useState/A"
 import A1 from "./02-02-2026/GlobalState/Context Api/A1"
-import { store } from "./03-02-2026/GlobalState/Redux/AAA";
+// import { store } from "./03-02-2026/GlobalState/Redux/AAA";
 import { Provider } from "react-redux"
 import A2 from "./03-02-2026/GlobalState/ContextAPI/A2";
+// import { store1 } from "./04-02-2026/Redux/redux";
+import AB from "./04-02-2026/Redux/AB";
+// import { a } from "./05-02-2026/React Redux/redux";
+import A from "./05-02-2026/React Redux/A"
+
+import store from "./06-02-2026/Toolkit/Store";
+import Reducer from "./06-02-2026/Toolkit/Reducer";
+
+
 
 function App(){
   return(
     <Provider store={store}>
       <>
-         <A2/>
+      <h1>Redux Toolkit</h1>
+      <Reducer/>
       </>
     </Provider>
+
   )
 }
 export default App;
