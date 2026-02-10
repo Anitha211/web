@@ -9,8 +9,8 @@ let store = configureStore({
     Count : CounterReducer,
     user : userReducer,
     auth : authReducer,
-   
-  }
+}
+
  })
 
 export default store;
