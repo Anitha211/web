@@ -23,10 +23,11 @@ import AB from "./04-02-2026/Redux/AB";
 // import { a } from "./05-02-2026/React Redux/redux";
 import A from "./05-02-2026/React Redux/A"
 
-import store from "./06-02-2026/Toolkit/Store";
-import Reducer from "./06-02-2026/Toolkit/Reducer";
+// import store from "./06-02-2026/Toolkit/Store";
+// import Reducer from "./06-02-2026/Toolkit/Reducer";
 
-
+import store from "./09-02-2026/Redux toolkit/Store";
+import Reducer from "./09-02-2026/Redux toolkit/Reducer";
 
 function App(){
   return(

@@ -2,7 +2,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { Decrease, Increase, Reset } from "./Slice"; 
 import { clearUser, updateUser } from "./Slice1";
 import { Login, Logout } from "./Slice2";
-import { turnOff, turnOn } from "./Slice3";
 
 function Reducer(){
     let value = useSelector((state) => {
@@ -32,17 +31,8 @@ function Reducer(){
         return state.auth.authAction;
     });
     // 
-    // 
-    let isOn = useSelector((state) => {
-        return state.bulb.isOn;
-    });
-    // console.log(isOn);
-    let Action = useSelector((state) => {
-        return state.bulb.action;
-    });
     return(
         <div>
-
             <h1>Inc & Dec the value:- {value}</h1>
             <h2>Payload Action: {action}</h2>
             <button onClick={() => d(Increase("Increase Value"))}>Increase</button>
@@ -70,14 +60,6 @@ function Reducer(){
             <button onClick ={() => d(Login("true"))}>Login</button>
             <button onClick={() => d(Logout("false"))}>Logout</button>
 
-            {/*  */}
-            <hr></hr>
-
-            <h1>Bulb Status: {isOn}</h1>
-            <h2>Bulb Action: {Action}</h2>
-            <button onClick={() => d(turnOn("Bulb is ON"))}>Turn On</button>
-            <button onClick={() => d(turnOff("Bulb is OFF"))}>Turn Off</button>
-            
         </div>
    )
 }
