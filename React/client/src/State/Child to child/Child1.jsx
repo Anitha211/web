@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import Child2 from "./Child2"
 
 function Child1({B, Value }){
