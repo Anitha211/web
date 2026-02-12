@@ -29,20 +29,27 @@ import AB from "./04-02-2026/Redux/AB";
 // import store from "./09-02-2026/Redux toolkit/Store";
 import Reducer from "./09-02-2026/Redux toolkit/Reducer";
 
-import A from "./10-02-2026/useState/Parent"
+// import A from "./10-02-2026/useState/Parent"
 import A1 from "./10-02-2026/Context API/A1"
 import {store} from "./10-02-2026/Redux/Store"
 import Redux from "./10-02-2026/Redux/Aa"
+import A from "./11-02-2026/UseReducer/A"
+import B from "./11-02-2026/UseReducer/B"
+import Profile from "./Conditional rendering/Profile";
+
 
 function App(){
   return(
     <Provider store={store}>
       <div>
-      <A/>
-      <hr></hr>
+      {/* <A/> */}
+      {/* <hr></hr> */}
       <A1/>
-      <hr></hr>
+      {/* <hr></hr> */}
       <Redux/> 
+       <A/>
+       <B/>
+       <Profile/>
       </div>
       </Provider>
     )
