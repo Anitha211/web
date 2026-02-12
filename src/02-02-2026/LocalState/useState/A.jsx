@@ -15,7 +15,6 @@ function A(){
         city : "Kadapa"
     })
 }
-   
     let geta = () => {
         seta({
             ...a,
