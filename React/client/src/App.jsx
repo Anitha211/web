@@ -31,27 +31,25 @@ import Reducer from "./09-02-2026/Redux toolkit/Reducer";
 
 // import A from "./10-02-2026/useState/Parent"
 import A1 from "./10-02-2026/Context API/A1"
-import {store} from "./10-02-2026/Redux/Store"
+// import {store} from "./10-02-2026/Redux/Store"
 import Redux from "./10-02-2026/Redux/Aa"
-import A from "./11-02-2026/UseReducer/A"
-import B from "./11-02-2026/UseReducer/B"
-import Profile from "./Conditional rendering/Profile";
-
+// import A from "./11-02-2026/UseReducer/A"
+// import B from "./11-02-2026/UseReducer/B"
+import Profile from "./12-02-2026/Conditional rendering/Profile"
+// import Roles from "./12-02-2026/Task/Roles";
+import Roles from "./13-02-2026/Conditional Rendering/Roles"
+import B from "./13-02-2026/useEffect/useEffect"
 
 function App(){
   return(
-    <Provider store={store}>
+    // <Provider store={store}>
       <div>
-      {/* <A/> */}
-      {/* <hr></hr> */}
-      <A1/>
-      {/* <hr></hr> */}
-      <Redux/> 
-       <A/>
+       <Roles/>
+       <hr></hr>
+       {/* <h1>useEffect</h1> */}
        <B/>
-       <Profile/>
-      </div>
-      </Provider>
+       </div>
+      // </Provider>
     )
 }
 export default App;
