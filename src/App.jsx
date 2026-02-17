@@ -35,19 +35,44 @@ import A1 from "./10-02-2026/Context API/A1"
 import Redux from "./10-02-2026/Redux/Aa"
 // import A from "./11-02-2026/UseReducer/A"
 // import B from "./11-02-2026/UseReducer/B"
+<<<<<<< HEAD
+// import Profile from "./12-02-2026/Conditional rendering/Profile"
+// import Roles from "./12-02-2026/Task/Roles";
+import Roles from "./13-02-2026/Conditional Rendering/Roles"
+import B from "./13-02-2026/useEffect/useEffect"
+import Profile from "./16-02-2026 (event Handling)/Profile";
+import A from "./16-02-2026 (event Handling)/A" 
+
+=======
 import Profile from "./12-02-2026/Conditional rendering/Profile"
 // import Roles from "./12-02-2026/Task/Roles";
 import Roles from "./13-02-2026/Conditional Rendering/Roles"
 import B from "./13-02-2026/useEffect/useEffect"
+>>>>>>> 4d15c5d900f60ab590ef848e547a27a1cb0c90e5
 
 function App(){
   return(
     // <Provider store={store}>
       <div>
+<<<<<<< HEAD
+       {/* <Roles/> */}
+       {/* <hr></hr> */}
+       {/* <h1>useEffect</h1> */}
+       
+       {/* <hr></hr> */}
+       <Profile/>
+
+       <hr/>
+
+       <A/>
+
+
+=======
        <Roles/>
        <hr></hr>
        {/* <h1>useEffect</h1> */}
        <B/>
+>>>>>>> 4d15c5d900f60ab590ef848e547a27a1cb0c90e5
        </div>
       // </Provider>
     )
