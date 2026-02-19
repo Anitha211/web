@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense} from "react";
 // import A from "./Components/A";
 // import B from "./Components/B";
 // import C from "./Components/C";
@@ -30,51 +30,62 @@ import AB from "./04-02-2026/Redux/AB";
 import Reducer from "./09-02-2026/Redux toolkit/Reducer";
 
 // import A from "./10-02-2026/useState/Parent"
-import A1 from "./10-02-2026/Context API/A1"
+// import A1 from "./10-02-2026/Context API/A1"
 // import {store} from "./10-02-2026/Redux/Store"
 import Redux from "./10-02-2026/Redux/Aa"
 // import A from "./11-02-2026/UseReducer/A"
 // import B from "./11-02-2026/UseReducer/B"
-<<<<<<< HEAD
-// import Profile from "./12-02-2026/Conditional rendering/Profile"
-// import Roles from "./12-02-2026/Task/Roles";
-import Roles from "./13-02-2026/Conditional Rendering/Roles"
-import B from "./13-02-2026/useEffect/useEffect"
-import Profile from "./16-02-2026 (event Handling)/Profile";
-import A from "./16-02-2026 (event Handling)/A" 
 
-=======
 import Profile from "./12-02-2026/Conditional rendering/Profile"
 // import Roles from "./12-02-2026/Task/Roles";
 import Roles from "./13-02-2026/Conditional Rendering/Roles"
-import B from "./13-02-2026/useEffect/useEffect"
->>>>>>> 4d15c5d900f60ab590ef848e547a27a1cb0c90e5
+// import B from "./13-02-2026/useEffect/useEffect"
+// import Profile from "./16-02-2026 (event Handling)/Profile";
+// import A from "./16-02-2026 (event Handling)/A" 
+// import Profile from "./12-02-2026/Conditional rendering/Profile"
+// import Roles from "./12-02-2026/Task/Roles";
+// import Roles from "./13-02-2026/Conditional Rendering/Roles"
+// import B from "./13-02-2026/useEffect/useEffect"
+
+// import A from "./17-02-2026/HOC(layout)/A";
+// import B from "./17-02-2026/HOC(layout)/B"
+// import Header from "./17-02-2026/HOC(layout)/Header";
+// import Footer from "./17-02-2026/HOC(layout)/Footer";
+import Layout from "./17-02-2026/HOC(layout)/Layout";
+
+import A1 from "./17-02-2026/CustomHooks/UseFetch/A1"
+// import A from "./17-02-2026/CustomHooks/UseCounter/A"
+// import B from "./17-02-2026/CustomHooks/UseCounter/B";
+// import C from "./17-02-2026/CustomHooks/useInput/C";
+
+import A from "./18-02-2026/React.Memo&useMemo/A";
+import B from "./18-02-2026/React.Memo&useMemo/B"
+import C from "./18-02-2026/React.Memo&useMemo/C"
+import Parent from "./18-02-2026/UsecallBack/Parent";
+import P1 from "./18-02-2026/UsecallBack/Example/P1";
+
+import Cart from "./18-02-2026/UsecallBack/Example2/Cart"
+
 
 function App(){
+    
   return(
-    // <Provider store={store}>
+   
       <div>
-<<<<<<< HEAD
-       {/* <Roles/> */}
-       {/* <hr></hr> */}
-       {/* <h1>useEffect</h1> */}
+       {/* <A/> */}
        
-       {/* <hr></hr> */}
-       <Profile/>
-
+       {/* <B/> */}
+       
+       <C/>
        <hr/>
+       <Parent/>
+       <hr/>
+       <P1/>
+       <hr/>
+       <Cart/>
 
-       <A/>
-
-
-=======
-       <Roles/>
-       <hr></hr>
-       {/* <h1>useEffect</h1> */}
-       <B/>
->>>>>>> 4d15c5d900f60ab590ef848e547a27a1cb0c90e5
        </div>
-      // </Provider>
+     
     )
 }
 export default App;
