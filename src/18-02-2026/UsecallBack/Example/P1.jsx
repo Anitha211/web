@@ -28,7 +28,7 @@ function P1(){
     return(
         <div className="container">
             
-            <h1 className="main">P1 Component</h1>
+            <h1 className="card">P1 Component</h1>
            
             <C1 age={age}
                 updateAge={updateAge}

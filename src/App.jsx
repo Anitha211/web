@@ -64,7 +64,8 @@ import C from "./18-02-2026/React.Memo&useMemo/C"
 import Parent from "./18-02-2026/UsecallBack/Parent";
 import P1 from "./18-02-2026/UsecallBack/Example/P1";
 
-import Cart from "./18-02-2026/UsecallBack/Example2/Cart"
+import Cart from "./19-02-2026/usecallBack/card/Cart"
+import Todo from "./19-02-2026/usecallBack/Todo/Todo";
 
 
 function App(){
@@ -76,13 +77,16 @@ function App(){
        
        {/* <B/> */}
        
-       <C/>
-       <hr/>
-       <Parent/>
-       <hr/>
+       {/* <C/> */}
+       {/* <hr/> */}
+       {/* <Parent/> */}
+       {/* <hr/> */}
+       <h1 style={{textAlign:"center",margin:"40px"}}>UsecallBack</h1>
        <P1/>
        <hr/>
        <Cart/>
+       <hr/>
+       <Todo/>
 
        </div>
      

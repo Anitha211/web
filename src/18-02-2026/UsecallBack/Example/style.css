@@ -1,36 +1,26 @@
 body{
-    font-family:cursive;
+    /* font-family:'Courier New', Courier, monospace; */
     background-color:white;
     border-radius: 20px;
     border:5px solid rgb(61, 23, 196);
     padding:10px;
     /* width:800px */
 }
-/* 
-*{
-    box-sizing: border-box;
-} */
+
 
 .container{
     text-align: center;
-    padding: 40px 20px;
+    /* padding:20px; */
     min-height: 500px;
    
 }
 
-.main{
+/* .main{
     font-size: 50px;
     margin-bottom: 30px;
     color:chartreuse;
     
-}
-
-/* .grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    /* gap:2px; */
-    /* justify-items: center; */
-/* } */ 
+} */
 
 .card{
     background-color: white;
@@ -39,8 +29,8 @@ body{
     padding: 20px;
     border-radius: 12px;
     border: 2px solid blue;
-    
-}
+
+ }
 
 .card h2{
     margin:12px;

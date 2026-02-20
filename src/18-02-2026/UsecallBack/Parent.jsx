@@ -20,8 +20,8 @@ function Parent(){
             <h4>COUNT: {count}</h4>
             <button onClick={()=>setCount(count+5)}>Parent Count</button>
             
-
-            <Child onIncrease={handleIncrease}/>
+                
+                <Child onIncrease={handleIncrease}/>
 
         </div>
     )
